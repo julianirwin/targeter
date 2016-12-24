@@ -4,14 +4,14 @@ Use regex to select files from a folder.
 
 Example file tree:
 
-some/dir/
-├── subdir1
-│   ├── config_bar.xml
-│   └── config_foo.xml
-├── testfile_bar_0.txt
-├── testfile_bar_1.txt
-├── testfile_foo_0.txt
-└── testfile_foo_1.txt
+    some/dir/
+    ├── subdir1
+    │   ├── config_bar.xml
+    │   └── config_foo.xml
+    ├── testfile_bar_0.txt
+    ├── testfile_bar_1.txt
+    ├── testfile_foo_0.txt
+    └── testfile_foo_1.txt
 
     from targeter import acquire
     rootpath = '/path/to/some/dir'
