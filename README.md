@@ -13,6 +13,8 @@ Example file tree:
     ├── testfile_foo_0.txt
     └── testfile_foo_1.txt
 
+Example Usage:
+
     from targeter import acquire
     rootpath = '/path/to/some/dir'
 
